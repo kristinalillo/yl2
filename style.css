@@ -1,0 +1,281 @@
+
+.gallery-image img {
+    width: 100%;
+}
+
+body{
+    background-color: #fffbee;
+}
+.container{
+    background-color: white;
+    width: 98%;
+    opacity: 0.95;
+    margin: auto;
+}
+
+header .header-banner {
+
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+
+
+}
+
+header .logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    alignment: center;
+    table-layout: fixed;
+    padding: 1em;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+header nav ul {
+
+    display: block;
+    margin: 0px auto;
+    text-align: center; /*IE*/
+    width: fit-content;
+
+}
+
+header nav ul li {
+    margin-top: 200px;
+    display: inline-block;
+    padding: 16px 16px;
+
+}
+
+
+
+header h1 {
+
+    font-family: "Gentium Basic", serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+    line-height: 70px;
+    text-transform: uppercase;
+
+}
+
+header h2 {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 7px;
+    margin-top: auto;
+    color: black;
+    text-transform: uppercase;
+    padding-left: auto;
+
+}
+
+
+nav ul li a {
+    margin-right: 125px;
+    margin-left: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.joon{
+    display: none;
+}
+
+footer {
+
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #4f4339;
+    color: white;
+
+}
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+footer ul li {
+
+    display: block;
+
+}
+
+footer ul li p {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.header-pic{
+    padding-left: 14%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.header-pic {
+    width: 1000px;
+    padding: auto;
+
+
+}
+
+.footer-sm {
+
+    width: 32px;
+    float: right;
+    padding-right: 10px;
+
+}
+
+.footer-sm img {
+
+    width: 100%;
+    padding: 10px 0 0 0;
+
+
+}
+
+
+.gallery-h2 {
+
+    font-family: "Gentium Basic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: #3a383d;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.gallery-image {
+
+    margin: 10px;
+    position: relative;
+    text-align: center;
+
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+
+
+}
+
+.post-header {
+
+    /*kujundus*/
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px #111111;
+
+    /*positsioneerimine*/
+
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}.index-header {
+     padding:5%;
+     text-align: left;
+ }
+
+.index-header h2{
+    margin-top: 60px;
+    text-align: left;
+    padding: 0 0 0 0;
+}
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.gallery-links img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 75px;
+
+}
+
+@media only screen and (max-width: 750px) {
+
+
+    .disclaimer {
+
+        display: block;
+
+    }
+
+    header .header-banner {
+
+        height: calc(100vh - 400px);
+
+    }
+
+    .joon {
+        color: black;
+        border-width: 2px;
+        width: 30%;
+        margin: 0 auto;
+
+
+    }
+    .header-pic img {
+        position: relative; left:20px;
+        width: calc(100vh - 300px);
+        padding: auto;
+    }
+
+
+}
