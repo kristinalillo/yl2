@@ -16,16 +16,9 @@ header .header-banner {
     background-position: center;
     background-size: cover;
 
-
 }
 .header-pic{
     margin-top: 100px;
-    width: 100%;
-    height: calc(100vh - 500px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
 }
 
 header .logo {
@@ -38,7 +31,7 @@ header .logo {
     padding: 1em;
     position: absolute;
     margin-top: 100px;
-    margin-left: 49%;
+    margin-left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
@@ -47,21 +40,19 @@ header .logo {
 header nav ul {
 
     display: block;
-    margin:auto;
+    margin: 0 auto;
     text-align: center; /*IE*/
     width: fit-content;
+    padding-top: 180px;
 
 
 }
 
 header nav ul li {
-    margin-top: 180px;
     display: inline-block;
     padding: 16px 16px;
 
 }
-
-
 
 header h1 {
 
@@ -256,9 +247,6 @@ footer ul li p {
         color: black;
         border-width: 2px;
         width: 30%;
-        margin: 0 auto;
-
-
     }
 
     .header-pic img {
@@ -270,26 +258,10 @@ footer ul li p {
         background-size: cover;
     }
 
-    .header nav ul li {
-        position: absolute;
-        margin-top: 180px;
-        margin-bottom: 100px;
-        display: table;
-        padding: 16px 16px;
-    }
-
     nav ul li a {
-        margin-right: 8px;
-        margin-left: 5px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
+        margin-right: 10px;
+        margin-left: 10px;
         font-size: 14px;
-        letter-spacing: 3px;
-        color: #172029;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding-top: 20px;
-        padding-bottom: 20px;
 
 
     }
@@ -305,8 +277,6 @@ footer ul li p {
         letter-spacing: 7px;
         margin-top: auto;
         padding-left: auto;
-
-
 
     }
 }
