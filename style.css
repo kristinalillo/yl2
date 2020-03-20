@@ -1,14 +1,9 @@
-
-.gallery-image img {
-    width: 100%;
-}
-
 body{
     background-color: #fffbee;
 }
 .container{
     background-color: white;
-    width: 98%;
+    width: 100%;
     opacity: 0.95;
     margin: auto;
 }
@@ -20,8 +15,16 @@ header .header-banner {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: table;
 
+
+}
+.header-pic{
+    margin-top: 100px;
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -44,14 +47,15 @@ header .logo {
 header nav ul {
 
     display: block;
-    margin: 0px auto;
+    margin:auto;
     text-align: center; /*IE*/
     width: fit-content;
+
 
 }
 
 header nav ul li {
-    margin-top: 200px;
+    margin-top: 180px;
     display: inline-block;
     padding: 16px 16px;
 
@@ -85,11 +89,11 @@ header h2 {
 
 
 nav ul li a {
-    margin-right: 125px;
-    margin-left: 100px;
+    margin-right: 90px;
+    margin-left: 70px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 3px;
     color: #172029;
     text-transform: uppercase;
@@ -135,22 +139,6 @@ footer ul li p {
     letter-spacing: 2px;
     color: #ffffff;
     text-transform: uppercase;
-
-}
-
-.header-pic{
-    padding-left: 14%;
-    height: calc(100vh - 500px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: table;
-}
-
-.header-pic {
-    width: 1000px;
-    padding: auto;
-
 
 }
 
@@ -217,6 +205,7 @@ footer ul li p {
     transform: translate(-50%, -50%);
 
 }.index-header {
+    margin-top: 270px;
      padding:5%;
      text-align: left;
  }
@@ -253,7 +242,7 @@ footer ul li p {
 
     .disclaimer {
 
-        display: block;
+        display: none;
 
     }
 
@@ -271,11 +260,53 @@ footer ul li p {
 
 
     }
+
     .header-pic img {
-        position: relative; left:20px;
-        width: calc(100vh - 300px);
-        padding: auto;
+        margin-top: 100px;
+        width: 100%;
+        height: calc(100vh - 500px);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
+    .header nav ul li {
+        position: absolute;
+        margin-top: 180px;
+        margin-bottom: 100px;
+        display: table;
+        padding: 16px 16px;
+    }
 
+    nav ul li a {
+        margin-right: 8px;
+        margin-left: 5px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 3px;
+        color: #172029;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+    }
+    header h1 {
+
+        padding-top: 50px;
+        font-size: 50px;
+
+    }
+    header h2 {
+
+        font-size: 13px;
+        letter-spacing: 7px;
+        margin-top: auto;
+        padding-left: auto;
+
+
+
+    }
 }
